@@ -2,7 +2,7 @@ package Pertemuan2;
 public class P2_Percobaan3_pertanyaan1_20 {
 
     public static void main(String[] args) {
-        System.out.println("                           KARTU RENCANA STUDI (KRS)");;
+        System.out.println("                                     (KRS)");;
         System.out.println("NAMA                : Muhammad Zuhdi Yudadharma");
         System.out.println("PROGRAM STUDI       : D-IV Teknik Informatika");
         System.out.println("KELAS               : 1G");
