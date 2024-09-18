@@ -32,8 +32,8 @@ public class siakad20 {
         nilaiAkhir = (nilaiKuis + nilaiTugas + nilaiUjian) / 3;
 
         System.out.println("\nData Mahasiswa:");
-        System.out.println("Nama: " + nama + "NIM: " + nim);
-        System.out.println("Kelas: " + kelas + "Absen: " + absen);
+        System.out.println("Nama: " + nama + "\nNIM: " + nim);
+        System.out.println("Kelas: " + kelas + "\nAbsen: " + absen);
         System.out.println("Nilai Akhir: " + nilaiAkhir);
     }
 }
