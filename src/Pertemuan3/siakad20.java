@@ -8,16 +8,16 @@ public class siakad20 {
         Scanner sc = new Scanner(System.in);
 
         String nama, nim;
-        char kelas;
+        String kelas;
         byte absen;
-        double nilaiKuis, nilaiTugas, nilaiUjian, nilaiAkhir;
+        double nilaiKuis, nilaiTugas, nilaiUjian, nilai-akhir;
 
         System.out.print("Masukkan Nama: ");
         nama = sc.nextLine();
         System.out.print("Masukkan NIM: ");
         nim = sc.nextLine();
         System.out.print("Masukkan Kelas: ");
-        kelas = sc.next().charAt(0);
+        kelas = sc.nextLine();
         System.out.print("Masukkan Absen: ");
         absen = sc.nextByte();
         
@@ -29,11 +29,11 @@ public class siakad20 {
         System.out.print("Masukkan Nilai Ujian: ");
         nilaiUjian = sc.nextDouble();
 
-        nilaiAkhir = (nilaiKuis + nilaiTugas + nilaiUjian) / 3;
+        nilai-akhir = (nilaiKuis + nilaiTugas + nilaiUjian) / 3;
 
         System.out.println("\nData Mahasiswa:");
         System.out.println("Nama: " + nama + "\nNIM: " + nim);
         System.out.println("Kelas: " + kelas + "\nAbsen: " + absen);
-        System.out.println("Nilai Akhir: " + nilaiAkhir);
+        System.out.println("Nilai Akhir: " + nilai-akhir);
     }
 }
