@@ -21,7 +21,7 @@ public class tugas2 {
         pajak = (gajiKotor + bonus) * 0.05 ;
         gajiBersih = gajiKotor + bonus - pajak ;
 
-        System.out.println("Gaji kotorr: " + gajiKotor);
+        System.out.println("Gaji kkotor: " + gajiKotor);
         System.out.println("Bonus: " + bonus);
         System.out.println("Pajak: " + pajak);
         System.out.println("Total gaji bersih : Rp " + gajiBersih);
@@ -31,3 +31,4 @@ public class tugas2 {
 
 //note
 //gaji kotor = gaji sebelum pajak//
+
