@@ -16,19 +16,23 @@ public class PemilihanSwitch20 {
         System.out.print("masukkan operator (+ - * :) ");
         operator = sc.next().charAt(0);
 
-        if (operator == '+') {
-            hasil = angka1 + angka2;
-        } else if (operator == '-') {
-            hasil = angka1 - angka2;
-        } else if (operator == '*') {
-            hasil = angka1 * angka2;
-        } else if (operator == '/') {
-            hasil = angka1 * angka2;
-        }else {
-            System.out.println("Operator yang dipilih tidak sesuai.");
-            return;
+        switch (operator) {
+            case '+':
+                hasil = angka1 + angka2;
+                break;
+            case '-':
+                hasil = angka1 - angka2;
+                break;
+            case '*':
+                hasil = angka1 * angka2;
+                break;
+            case '/':
+                hasil = angka1 / angka2;
+                break;
+            default:
+                System.out.println("Operator yang dipilih tidak sesuai.");
+                break;
         }
-        
         System.out.println(angka1 + " " + operator + " " + angka2 + " = " + hasil);
     }
 }
