@@ -6,7 +6,6 @@
     ],
     "java.debug.settings.onBuildFailureProceed": true,
     "terminal.integrated.defaultProfile.osx": "",
-    // "terminal.integrated.defaultProfile.window": "PowerShell",
     "launch": {
         "terminal.integrated.defaultProfile.window": "PowerShell",
         "configurations": [],
