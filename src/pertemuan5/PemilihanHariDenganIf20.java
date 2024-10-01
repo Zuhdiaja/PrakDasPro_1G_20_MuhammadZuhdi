@@ -5,7 +5,7 @@ public class PemilihanHariDenganIf20 {
     public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
-    System.out.print("Masukkan angkaa (1-7): ");
+    System.out.print("Masukkan angka (1-7): ");
     int angka = sc.nextInt();
     
         if (angka >= 1 && angka <= 5) {
