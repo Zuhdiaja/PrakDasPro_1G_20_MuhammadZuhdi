@@ -3,7 +3,7 @@ package Pertemuan3;
 import java.util.Scanner;
 
 public class tugas2 {
-    
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -24,7 +24,7 @@ public class tugas2 {
         System.out.println("Gaji kkotor: " + gajiKotor);
         System.out.println("Bonus: " + bonus);
         System.out.println("Pajak: " + pajak);
-        System.out.println("Total gaji bersih : Rp " + gajiBersih);
+        System.out.println("Total gaji bersihh : Rp " + gajiBersih);
         
     }
 }
