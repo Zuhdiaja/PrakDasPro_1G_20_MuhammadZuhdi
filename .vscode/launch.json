@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "kafe20",
+            "request": "launch",
+            "mainClass": "pertemuan5.kafe20",
+            "projectName": "PrakDasPro_1G_20_MuhammadZuhdi_811e447a"
+        },
+        {
+            "type": "java",
             "name": "siakad20",
             "request": "launch",
             "mainClass": "pertemuan5.siakad20",
