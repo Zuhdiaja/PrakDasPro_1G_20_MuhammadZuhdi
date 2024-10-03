@@ -4,10 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
-        
-        
-        
+        {
+            "type": "java",
+            "name": "siakad20",
+            "request": "launch",
+            "mainClass": "pertemuan5.siakad20",
+            "projectName": "PrakDasPro_1G_20_MuhammadZuhdi_811e447a"
+        },
         {
             "type": "java",
             "name": "Current File",
