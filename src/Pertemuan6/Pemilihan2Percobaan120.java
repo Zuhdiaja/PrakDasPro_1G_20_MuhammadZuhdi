@@ -18,10 +18,13 @@ public class Pemilihan2Percobaan120 {
         } else{
             System.out.println("Bukan tahun kabisat");
         }
-        } else {
-            System.out.println("Tahun kabisat");
-        }
-        }
+            } else {
+                System.out.println("Tahun kabisat");
+            }
+            } else {
+                System.out.println("bukan tahun kabisat");
+            }
+        
 
 
 
