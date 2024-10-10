@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "tugasP6_3_20",
+            "request": "launch",
+            "mainClass": "Pertemuan6.tugasP6_3_20",
+            "projectName": "PrakDasPro_1G_20_MuhammadZuhdi_811e447a"
+        },
+        {
+            "type": "java",
+            "name": "tugasP6_2_20",
+            "request": "launch",
+            "mainClass": "Pertemuan6.tugasP6_2_20",
+            "projectName": "PrakDasPro_1G_20_MuhammadZuhdi_811e447a"
+        },
+        {
+            "type": "java",
+            "name": "latihan1_20",
+            "request": "launch",
+            "mainClass": "Pertemuan6.latihan1_20",
+            "projectName": "PrakDasPro_1G_20_MuhammadZuhdi_811e447a"
+        },
+        {
+            "type": "java",
+            "name": "Pemilihan2Percobaan3_20",
+            "request": "launch",
+            "mainClass": "Pertemuan6.Pemilihan2Percobaan3_20",
+            "projectName": "PrakDasPro_1G_20_MuhammadZuhdi_811e447a"
+        },
+        {
+            "type": "java",
             "name": "Pemilihan2Percobaan2_20",
             "request": "launch",
             "mainClass": "Pertemuan6.Pemilihan2Percobaan2_20",
