@@ -1,5 +1,4 @@
 package Pertemuan6;
-
 import java.util.Scanner;
 
 public class Pemilihan2Percobaan2_20 {
@@ -26,24 +25,18 @@ public class Pemilihan2Percobaan2_20 {
         jenisPembayaran = input20.nextLine();
         System.out.println("-------------------------------------");
 
-
-
         if (member.equalsIgnoreCase("y")) {
             diskon = 0.10;
             System.out.println("besar diskon = 10%");
-
             if (pilihan_menu == 1) {
                 harga = 14000;
                 System.out.println("harga ricebowl = " + harga);
-
             } else if (pilihan_menu == 2) {
                 harga = 3000;
                 System.out.println("harga ice tea = " + harga);
-
             } else if (pilihan_menu == 3) {
                 harga = 15000;
                 System.out.println("harga budling = " + harga);
-
             } else {
                 System.out.println("masukkan pilihan menu dengan benar");
                 return;
@@ -51,23 +44,17 @@ public class Pemilihan2Percobaan2_20 {
 
             total_bayar = harga - (harga * diskon);
 
-
-        
             } else if (member.equalsIgnoreCase("n")) {
             System.out.println("Tidak mendapatkan diskon.");
-
             if (pilihan_menu == 1) {
                 harga = 14000;
                 System.out.println("Harga ricebowl = " + harga);
-
             } else if (pilihan_menu == 2) {
                 harga = 3000;
                 System.out.println("Harga ice tea = " + harga);
-
             } else if (pilihan_menu == 3) {
                 harga = 15000;
                 System.out.println("Harga bundling = " + harga);
-            
             } else {
                 System.out.println("Masukkan pilihan menu dengan benar");
                 return;
@@ -79,9 +66,7 @@ public class Pemilihan2Percobaan2_20 {
             System.out.println("Input member tidak valid");
             return;
         }
-
-
-
+        
         if (jenisPembayaran.equals("QRIS")) {
             total_bayar -= 1000;
             System.out.println(" potongan harga Rp. 1.000 memakai QRIS");
