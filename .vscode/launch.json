@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Square20",
+            "request": "launch",
+            "mainClass": "Pertemuan9.Square20",
+            "projectName": "PrakDasPro_1G_20_MuhammadZuhdi_811e447a"
+        },
+        {
+            "type": "java",
+            "name": "Star20",
+            "request": "launch",
+            "mainClass": "Pertemuan9.Star20",
+            "projectName": "PrakDasPro_1G_20_MuhammadZuhdi_811e447a"
+        },
+        {
+            "type": "java",
             "name": "GajiKaryawan_20",
             "request": "launch",
             "mainClass": "Pertemuan7.GajiKaryawan_20",
