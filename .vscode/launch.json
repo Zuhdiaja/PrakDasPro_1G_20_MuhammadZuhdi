@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RataNilai20",
+            "request": "launch",
+            "mainClass": "Pertemuan9.RataNilai20",
+            "projectName": "PrakDasPro_1G_20_MuhammadZuhdi_811e447a"
+        },
+        {
+            "type": "java",
             "name": "Triangle20",
             "request": "launch",
             "mainClass": "Pertemuan9.Triangle20",
