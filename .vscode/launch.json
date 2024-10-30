@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "tes",
+            "request": "launch",
+            "mainClass": "Pertemuan9.tes",
+            "projectName": "PrakDasPro_1G_20_MuhammadZuhdi_811e447a"
+        },
+        {
+            "type": "java",
+            "name": "tugas2",
+            "request": "launch",
+            "mainClass": "Pertemuan9.tugas2",
+            "projectName": "PrakDasPro_1G_20_MuhammadZuhdi_811e447a"
+        },
+        {
+            "type": "java",
+            "name": "tugas1",
+            "request": "launch",
+            "mainClass": "Pertemuan9.tugas1",
+            "projectName": "PrakDasPro_1G_20_MuhammadZuhdi_811e447a"
+        },
+        {
+            "type": "java",
             "name": "RataNilai20",
             "request": "launch",
             "mainClass": "Pertemuan9.RataNilai20",
