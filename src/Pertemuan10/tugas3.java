@@ -21,9 +21,9 @@ public static void main(String[] args) {
     }
 
     if (hasil!=("")) {
-        System.out.println(key);
+        System.out.println("makanan " +key+ " tersedia");
     } else {
-        System.out.println("makanan tidak ditemukan");
+        System.out.println("makanan yang dicari tidak ada di menu");
     }
 }
 }

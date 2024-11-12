@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Bioskop20",
+            "request": "launch",
+            "mainClass": "Pertemuan11.Bioskop20",
+            "projectName": "PrakDasPro_1G_20_MuhammadZuhdi_811e447a"
+        },
+        {
+            "type": "java",
             "name": "tugas3",
             "request": "launch",
             "mainClass": "Pertemuan10.tugas3",
