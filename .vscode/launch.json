@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SIAKAD20",
+            "request": "launch",
+            "mainClass": "Pertemuan11.SIAKAD20",
+            "projectName": "PrakDasPro_1G_20_MuhammadZuhdi_811e447a"
+        },
+        {
+            "type": "java",
             "name": "Numbers20",
             "request": "launch",
             "mainClass": "Pertemuan11.Numbers20",
