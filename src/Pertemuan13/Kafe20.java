@@ -42,7 +42,9 @@ public class Kafe20 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         menu("andi", true);
+        double totalKeseluruhan = 0;
         
+        while (true) {
         System.out.print("\nMasukkan nomor menu yang ingin Anda pesan: ");
         int pilihanMenu = sc.nextInt();
         System.out.print("Masukkan jumlah item yang ingin dipesan: ");
@@ -56,9 +58,16 @@ public class Kafe20 {
         System.out.println("Total harga untuk pesanan Anda sebelum diskon: Rp" + totalHarga);
 
         double totalDiskon = hitungTotalharga20(pilihanMenu, jumlahItem, diskon);
-        
+        totalKeseluruhan += totalDiskon;
         System.out.println("Total harga untuk pesanan Anda setelah diskon: Rp" + totalDiskon);
 
-        
+        System.out.print("apakah anda ingin memesan menu yang lain ya/tidak?");
+        String lanjut = sc.nextLine();
+
+        if (lanjut.equalsIgnoreCase("tidak")) {
+            break;
+        }
+    }
+        System.out.println("total keseluruhan harga : " + totalKeseluruhan);
 }
     }
