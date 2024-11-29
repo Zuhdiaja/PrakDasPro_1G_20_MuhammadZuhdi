@@ -1,8 +1,8 @@
 package Pertemuan13;
 
 public class Kafe20 {
-    
-    public static void menu( ) {
+
+    public static void main(String[] args) {
         System.out.println("======== MENU RESTO KAFE ========");
         System.out.println("1. Kopi Hitam - Rp 15,000");
         System.out.println("2. Cappucino - Rp 20,000");
@@ -12,9 +12,5 @@ public class Kafe20 {
         System.out.println("6. Mie Goreng - Rp 28,000");
         System.out.println("============================");
         System.out.println("Silahkan pilih menu yang anda inginkan");
-    }
-
-    public static void main(String[] args) {
-        menu();
     }
 }
