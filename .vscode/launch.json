@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Kubus20",
+            "request": "launch",
+            "mainClass": "Pertemuan13.Kubus20",
+            "projectName": "PrakDasPro_1G_20_MuhammadZuhdi_811e447a"
+        },
+        {
+            "type": "java",
+            "name": "Percobaan620",
+            "request": "launch",
+            "mainClass": "Pertemuan13.Percobaan620",
+            "projectName": "PrakDasPro_1G_20_MuhammadZuhdi_811e447a"
+        },
+        {
+            "type": "java",
             "name": "PengunjungKafe20",
             "request": "launch",
             "mainClass": "Pertemuan13.PengunjungKafe20",
