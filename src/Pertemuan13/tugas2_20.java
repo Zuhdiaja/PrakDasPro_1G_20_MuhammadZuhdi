@@ -76,49 +76,34 @@ public class tugas2_20 {
 
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
-            int pilihan;
 
-            do {
-                System.out.println("1. Tampilkan Seluruh Data Penjualan");
-                System.out.println("2. Tampilkan Rata-rata Penjualan");
-                System.out.println("3. Tampilkan Menu Penjualan Tertinggi");
-                System.out.println("4. Edit Data Penjualan");
-                System.out.println("5. Keluar");
-                System.out.print("Pilih opsi (1-5): ");
-                pilihan = sc.nextInt();
-    
-                if (pilihan == 1) {
-                    tampilkan();
+            System.out.print("Masukkan jumlah mahasiswa: ");
+            int jumlahMahasiswa = sc.nextInt();
+            System.out.print("Masukkan jumlah tugas: ");
+            int jumlahTugas = sc.nextInt();
 
-                } else if (pilihan == 2) {
-                    rataRataPenjualan();
+            String[] namaMahasiswa = new String[jumlahMahasiswa];
+            int[][] nilaiMahasiswa = new int[jumlahMahasiswa][jumlahTugas];
 
-                } else if (pilihan == 3) {
-                    menuTertinggi();
-
-                } else if (pilihan == 4) {
-                    System.out.println("\nPilih menu untuk diedit:");
-                    for (int i = 0; i < menu.length; i++) {
-                        System.out.println((i + 1) + ". " + menu[i]);
-                    }
-                    System.out.print("Masukkan nomor menu: ");
-                    int menuPilihan = sc.nextInt();
-                    if (menuPilihan < 1 || menuPilihan > menu.length) {
-                        System.out.println("Menu tidak valid.");
-                    }
-                    String namaMenu = menu[menuPilihan - 1];
-                    System.out.print("Masukkan hari (1-7): ");
-                    int hari = sc.nextInt();
-                    System.out.print("Masukkan jumlah penjualan baru: ");
-                    int jumlah = sc.nextInt();
-                    editPenjualan(namaMenu, hari, jumlah);
-
-                } else if (pilihan == 5) {
-                    System.out.println("Terima kasih! Program selesai.");
-                } else {
-                    System.out.println("Pilihan tidak valid. Coba lagi.");
+            for (int i = 0; i < jumlahMahasiswa; i++) {
+                System.out.println("Masukkan data mahasiswa ke-" + (i+1));
+                System.out.print("Nama: ");
+                namaMahasiswa[i] = sc.next();
+                System.out.println("Masukkan nilai tugas:");
+                for (int j = 0; j < jumlahTugas; j++) {
+                    System.out.print("Tugas " + (j+1) + ": ");
+                    nilaiMahasiswa[i][j] = sc.nextInt();
                 }
-            } while (pilihan != 5);
+            }
+yyy
+            System.out.println("\nData Mahasiswa dan Nilai Tugas:");
+            for (int i = 0; i < jumlahMahasiswa; i++) {
+                System.out.print("Mahasiswa " + (i+1) + " (" + namaMahasiswa[i] + "): ");
+                for (int j = 0; j < jumlahTugas; j++) {
+                    System.out.print(nilaiMahasiswa[i][j] + " ");
+                }
+                System.out.println();
+            }
+    
+        }
     }
-
-}
