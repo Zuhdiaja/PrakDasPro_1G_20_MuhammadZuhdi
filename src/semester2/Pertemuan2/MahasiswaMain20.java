@@ -18,6 +18,8 @@ public class MahasiswaMain20 {
         mhs2.updateIpk(3.30);
         mhs2.tampilkanInformasi();
 
+        Mahasiswa20 mhs3 = new Mahasiswa20("Muhammad Zuhdi", "244107020017", 3.5, "TI 1G");
+        mhs3.tampilkanInformasi();
     }
 
 }
