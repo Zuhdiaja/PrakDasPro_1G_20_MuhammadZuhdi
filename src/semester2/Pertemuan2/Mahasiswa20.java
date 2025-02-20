@@ -35,8 +35,17 @@ public class Mahasiswa20 {
         } else {
             return "Kinerja kurang";
         }
-            
-        
+    }
+
+    public Mahasiswa20() {
+
+    }
+
+    public Mahasiswa20(String nm, String nim, double ipk, String kls){
+        nama = nm;
+        this.nim = nim;
+        this.ipk = ipk;
+        kelas = kls;
     }
 
 }
